@@ -39,7 +39,7 @@ while game_is_on:
     for segment in snake.nsl:
         if segment == snake.head:
             pass
-        elif snake.head.distance(segment) < 10:
+        elif snake.head.distance(segment) < 15:
             game_is_on =False
             scoreboard.gameover()
     # else:

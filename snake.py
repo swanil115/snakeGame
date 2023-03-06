@@ -30,7 +30,7 @@ class Snake():
     
     def move(self):  
         for seg in range(len(self.nsl)-1, 0, -1):
-            nx= self.nsl[seg-1].xcor()   #here nx is new x position 
+            nx= self.nsl[seg-1].xcor()   #here nx is new x positi 
             ny= self.nsl[seg-1].ycor()   #here ny is new y position
             self.nsl[seg].goto(nx,ny)    #here nsl is new segment list
         self.head.forward(20)

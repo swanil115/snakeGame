@@ -19,7 +19,7 @@ game_is_on=True
 
 screen.listen()
 screen.onkey(snake.up, "Up")
-screen.onkey(snake.down, "Down")
+screen.onkey(snake.down, "Down")#this is a Ddown key
 screen.onkey(snake.left, "Left")
 screen.onkey(snake.right, "Right")
 
